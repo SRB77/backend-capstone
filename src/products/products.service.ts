@@ -1,19 +1,3 @@
-// import { Injectable } from '@nestjs/common';
-// import axios from 'axios';
-
-// @Injectable()
-// export class ProductsService {
-//     async getProducts(){
-//         const res= await axios.get("https://dummyjson.com/products");
-//         return res;
-//     }
-//     async getProductById(){
-//         const res = await axios.get(`https://dummyjson.com/products/${id}`);
-//         return res;
-//     }
-// }
-
-
 import { Injectable } from '@nestjs/common';
 import axios from 'axios';
 
